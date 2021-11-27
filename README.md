@@ -1,5 +1,9 @@
 # CMake
 
+## About 
+
+Repository about many CMake examples and how to use them.
+
 ## Build
 
 Here is a sample of how to configure the CMakeLists.txt file.
