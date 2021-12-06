@@ -1,0 +1,4 @@
+C:/Users/Felipe/Documents/current_projects/cmake_tutorial/library_example/build/CMakeFiles/hello_library.dir
+C:/Users/Felipe/Documents/current_projects/cmake_tutorial/library_example/build/CMakeFiles/main.dir
+C:/Users/Felipe/Documents/current_projects/cmake_tutorial/library_example/build/CMakeFiles/edit_cache.dir
+C:/Users/Felipe/Documents/current_projects/cmake_tutorial/library_example/build/CMakeFiles/rebuild_cache.dir
