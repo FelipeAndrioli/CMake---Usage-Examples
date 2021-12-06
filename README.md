@@ -40,6 +40,27 @@ Main commands
 It's worth to note that my cmake was defined by default to build based on Visual Studio, what was
 not what I was looking for, once I'd like to build a multiplatform development environment.
 
-## Dependencies
+## Creating and adding libraries to CMAKE 
+
+When creating a library we need to declare a add_library function, define the name of the library and
+pass the files which this library is going to use. In the end we just need to link the library to the
+main file as we can see in the example.
+
+## Build
+
+To build with libraries just need to call cmake as usually.
+
+### Example
 
 
+	add_library(
+		#hello_library SHARED
+		hello_library STATIC
+		#hello_library MODULE
+		hello.hpp
+		hello.cpp
+	)
+
+	add_executable(main main.cpp)
+
+	target_link_libraries(main PRIVATE hello_library)
